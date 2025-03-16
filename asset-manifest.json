@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Chicken-CV/static/css/main.d1f95982.css",
-    "main.js": "/Chicken-CV/static/js/main.05460c62.js",
+    "main.js": "/Chicken-CV/static/js/main.7d90eca3.js",
     "static/js/453.d45dd653.chunk.js": "/Chicken-CV/static/js/453.d45dd653.chunk.js",
     "static/media/roboto-latin-700-normal.woff2": "/Chicken-CV/static/media/roboto-latin-700-normal.c4d6cab43bec89049809.woff2",
     "static/media/roboto-latin-500-normal.woff2": "/Chicken-CV/static/media/roboto-latin-500-normal.599f66a60bdf974e578e.woff2",
@@ -78,11 +78,11 @@
     "static/media/roboto-greek-ext-300-normal.woff": "/Chicken-CV/static/media/roboto-greek-ext-300-normal.60729cafbded24073dfb.woff",
     "index.html": "/Chicken-CV/index.html",
     "main.d1f95982.css.map": "/Chicken-CV/static/css/main.d1f95982.css.map",
-    "main.05460c62.js.map": "/Chicken-CV/static/js/main.05460c62.js.map",
+    "main.7d90eca3.js.map": "/Chicken-CV/static/js/main.7d90eca3.js.map",
     "453.d45dd653.chunk.js.map": "/Chicken-CV/static/js/453.d45dd653.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1f95982.css",
-    "static/js/main.05460c62.js"
+    "static/js/main.7d90eca3.js"
   ]
 }
