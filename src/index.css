@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0
+}
+
+@media print {
+
+  @page {
+
+    size: A4;
+
+    margin: 0; /* this affects the margin in the printer settings */
+
+  }
+
+}
