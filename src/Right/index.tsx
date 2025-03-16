@@ -23,7 +23,7 @@ import SectionItem from "./CustomTimeline/SectionItem";
 const Right = () => {
   const theme = useTheme();
   return (
-    <Stack p={3}>
+    <Stack p={4} pt={6}>
       {/* Edutcation */}
       <Section icon={School} title="Education">
         <SectionItem {...educationData[0]} />

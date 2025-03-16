@@ -10,7 +10,7 @@ import {
 import { Stack, Box, Typography, useTheme } from "@mui/material";
 import React from "react";
 import Section from "./Section";
-import ava from "./3X4.jpg";
+import ava from "./ava.jpg";
 
 const Left = () => {
   const theme = useTheme();
@@ -32,12 +32,13 @@ const Left = () => {
           sx={{
             borderRadius: 999,
             p: 0.75,
-            width: 150,
-            height: 150,
+            width: 175,
+            height: 175,
             background: theme.palette.common.white,
-            objectFit: "contain",
+            objectFit: "cover",
+            objectPosition: "top",
             zIndex: 1,
-            position: "relative",
+            position: "absolute",
             top: "50%",
             left: "50%",
             transform: "translate(-50%, -50%)",
@@ -60,10 +61,12 @@ const Left = () => {
 
         <Stack
           sx={{
-            position: "relative",
-            top: "50%",
+            position: "absolute",
+            top: "100%",
             left: "50%",
             transform: "translate(-50%, -50%)",
+            zIndex: 2,
+            width: 200,
           }}
         >
           <Typography
@@ -74,7 +77,7 @@ const Left = () => {
             textAlign="center"
             justifyContent="center"
           >
-            Nguyễn Đình <br /> Hoàng Minh
+            Nguyen Dinh <br /> Hoang Minh
           </Typography>
 
           <Typography color={theme.palette.text.secondary} mx="auto" mb={3}>
@@ -115,7 +118,7 @@ const Left = () => {
               >
                 <LocationOnOutlined color="primary" sx={{ fontSize: 13 }} />
 
-                <Typography>123 Anywhere</Typography>
+                <Typography>26/21 Buu Dinh street, district 6</Typography>
               </Stack>
             </Stack>
           </Section>
@@ -147,14 +150,16 @@ const Left = () => {
                   sx={{ fontSize: 5, color: theme.palette.text.secondary }}
                 />
 
-                <Typography>Programming: #, C++, PLC</Typography>
+                <Typography>Programming: C#, C++, PLC</Typography>
               </Stack>
               <Stack direction="row" alignItems="center" spacing={1}>
                 <Circle
                   sx={{ fontSize: 5, color: theme.palette.text.secondary }}
                 />
 
-                <Typography>Office Information</Typography>
+                <Typography>
+                  Microsoft Office Suite: Word, Excel, PowerPoint
+                </Typography>
               </Stack>
               <Stack direction="row" alignItems="center" spacing={1}>
                 <Circle
