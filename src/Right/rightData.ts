@@ -4,7 +4,10 @@ export const educationData: SectionItemProps[] = [
   {
     title: "HCM University of Technology",
     time: "2020 - 2024",
-    description: ` Relevant course: Machine Learning, Mechatronics, Microcontrollers, Robotics Engineering, PLC`,
+    description: [
+      `Relevant course: Machine Learning, Mechatronics, Microcontrollers, Robotics Engineering, PLC`,
+      ` Bachelor of Technology - GPA: 3.2/4`,
+    ],
   },
 ];
 
@@ -34,6 +37,11 @@ export const experienceData: SectionItemProps[] = [
       `Design of egg incubator heating system`,
     ],
   },
+];
+
+export const awardData: string[] = [
+  `2nd prize for UIT Car Racing organized by UIT`,
+  `1st prize for Debate Science organized by IU Vietnam`,
 ];
 
 export const activityData: string[] = [

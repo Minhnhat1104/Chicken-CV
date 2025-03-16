@@ -36,20 +36,22 @@ const SectionItem = (props: SectionItemProps) => {
       {typeof description === "string" ? (
         <Typography>{description}</Typography>
       ) : (
-        description?.map((_item, i) => (
-          <Stack key={i} direction="row" spacing={1}>
-            <Circle
-              sx={{
-                fontSize: 5,
-                color: theme.palette.text.secondary,
-                position: "relative",
-                top: 6,
-              }}
-            />
+        <Stack spacing={0.5} mt={1}>
+          {description?.map((_item, i) => (
+            <Stack key={i} direction="row" spacing={1}>
+              <Circle
+                sx={{
+                  fontSize: 5,
+                  color: theme.palette.text.secondary,
+                  position: "relative",
+                  top: 7,
+                }}
+              />
 
-            <Typography>{_item}</Typography>
-          </Stack>
-        ))
+              <Typography>{_item}</Typography>
+            </Stack>
+          ))}
+        </Stack>
       )}
     </Stack>
   );
